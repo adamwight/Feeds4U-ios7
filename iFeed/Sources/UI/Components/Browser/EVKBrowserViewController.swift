@@ -10,12 +10,6 @@
 class EVKBrowserViewController: KINWebBrowserViewController {
     
     // MARK: - Init
-    override init!(configuration: WKWebViewConfiguration!) {
-        super.init(configuration: configuration)
-        
-        self.actionButtonHidden = false
-    }
-    
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -33,8 +27,6 @@ class EVKBrowserViewController: KINWebBrowserViewController {
         super.viewWillAppear(animated)
         
         self.automaticallyAdjustsScrollViewInsets = false
-        
-        self.tintColor = self.navigationController?.navigationBar.barTintColor
         
         self.progressView.frame = CGRectMake(0.0, 0.0, self.view.frame.size.width, self.progressView.frame.size.height)
     }

@@ -6,28 +6,47 @@
 //  Copyright (c) 2015 Evgeny Karkan. All rights reserved.
 //
 
-
-class EVKBaseViewController: UIViewController, EVKXMLParserProtocol {
+class EVKBaseViewController: UIViewController, UIAlertViewDelegate, EVKXMLParserProtocol {
 
     // MARK: - Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title                            = "Feeds4U"
+        self.title                            = "feeds"
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .Plain, target: nil, action: nil)
     }
     
     // MARK: - Public API - Alerts
     func showEnterFeedAlertView(feedURL: String) {
-        let alertController = UIAlertController(title: nil, message: "Add feed", preferredStyle: .Alert)
+        let alertView = UIAlertView(
+            title: "",
+            message: "Add feed",
+            delegate: self,
+            cancelButtonTitle: "Cancel",
+            otherButtonTitles: "Add"
+        )
+        alertView.alertViewStyle = UIAlertViewStyle.PlainTextInput
         
-        let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel) { action -> Void in
-            self.view.endEditing(true)
+        let textField = alertView.textFieldAtIndex(0)!
+        textField.placeholder = "http://www.something.com/rss"
+        if !feedURL.isEmpty {
+            textField.text = feedURL
         }
-        alertController.addAction(cancelAction)
         
-        let nextAction = UIAlertAction(title: "Add", style: .Default) { action -> Void in
-            if let textField = alertController.textFields?.first {
+        alertView.show();
+    }
+    
+    func alertViewCancel(alertView: UIAlertView) {
+        alertView.endEditing(true)
+    }
+    
+    /** click handler */
+    func alertView(
+        view: UIAlertView,
+        didDismissWithButtonIndex buttonIndex: Int
+    ) {
+        if buttonIndex == 1 {
+            if let textField = view.textFieldAtIndex(0) {
                 if !textField.text!.isEmpty {
                     self.addFeedPressed(textField.text!)
                 }
@@ -36,18 +55,6 @@ class EVKBaseViewController: UIViewController, EVKXMLParserProtocol {
                 }
             }
         }
-        
-        alertController.addAction(nextAction)
-        alertController.addTextFieldWithConfigurationHandler { textField -> Void in
-            textField.placeholder = "http://www.something.com/rss"
-            
-            if !feedURL.isEmpty {
-                textField.text = feedURL
-            }
-        }
-        
-        let rootVConWindow = EVKBrain.brain.presenter.window.rootViewController
-        rootVConWindow!.presentViewController(alertController, animated: true, completion: nil)
     }
     
     func showInvalidRSSAlert() {
@@ -87,15 +94,16 @@ class EVKBaseViewController: UIViewController, EVKXMLParserProtocol {
         self.showInvalidRSSAlert()
     }
     
-   // MARK: - Common alert
-   func showAlertMessage(message : String) {
-       let alertController = UIAlertController(title: "Oops...", message: message, preferredStyle:.Alert)
-
-       let okAction = UIAlertAction(title: "Ok", style:.Default) { action -> Void in
-            self.view.endEditing(true)
-       }
-       alertController.addAction(okAction)
-
-       self.presentViewController(alertController, animated: true, completion: nil)
+    // MARK: - Common alert
+    func showAlertMessage(message : String) {
+        UIAlertView(
+            title: "Oops...",
+            message: message,
+            delegate: nil,
+            cancelButtonTitle: nil,
+            otherButtonTitles: "Ok"
+        ).show();
    }
 }
+
+
