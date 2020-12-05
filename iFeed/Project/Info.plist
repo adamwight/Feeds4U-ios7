@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Feeds4U</string>
+	<string>feeds</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -29,7 +29,7 @@
 			<string>com.EvgenyKarkan.iFeed</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>Feeds4U</string>
+				<string>feeds</string>
 			</array>
 		</dict>
 		<dict>
