@@ -64,10 +64,8 @@ class EVKFeedItemsViewController: EVKBaseViewController, EVKTableProviderProtoco
             
             EVKBrain.brain.coreDater.saveContext()
             
-            let webVC: EVKBrowserViewController = EVKBrowserViewController()
-            webVC.loadURLString(item?.link)
-            
-            self.navigationController?.pushViewController(webVC, animated: true)
+            // TODO: handle error
+            UIApplication.sharedApplication().openURL(NSURL(string: item!.link)!)
         }
         else {
             self.showAlertMessage("Web link is missing")

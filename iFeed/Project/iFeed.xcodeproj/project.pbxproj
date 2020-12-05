@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		69B8CF03027A1CAD32830EA4 /* libPods-iFeed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30925441AB8EE21F877212 /* libPods-iFeed.a */; };
 		DE176A6A1B9B706F0046EDED /* EVKBaseTableProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE176A651B9B706F0046EDED /* EVKBaseTableProvider.swift */; };
 		DE176A6B1B9B706F0046EDED /* EVKBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE176A671B9B706F0046EDED /* EVKBrain.swift */; };
 		DE176A6C1B9B706F0046EDED /* EVKCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE176A681B9B706F0046EDED /* EVKCoreDataManager.swift */; };
@@ -23,7 +22,6 @@
 		DE176AB41B9CA0AD0046EDED /* EVKFeedItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE176AAF1B9CA0AD0046EDED /* EVKFeedItemsViewController.swift */; };
 		DE176AB51B9CA0AD0046EDED /* EVKFeedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE176AB11B9CA0AD0046EDED /* EVKFeedListView.swift */; };
 		DE176AB61B9CA0AD0046EDED /* EVKFeedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE176AB21B9CA0AD0046EDED /* EVKFeedListViewController.swift */; };
-		DE176AED1B9DFD150046EDED /* EVKBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE176AEC1B9DFD150046EDED /* EVKBrowserViewController.swift */; };
 		DE176AF11B9E0DCD0046EDED /* EVKFeedItemsTableProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE176AEF1B9E0DCD0046EDED /* EVKFeedItemsTableProvider.swift */; };
 		DE176AF21B9E0DCD0046EDED /* EVKFeedListTableProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE176AF01B9E0DCD0046EDED /* EVKFeedListTableProvider.swift */; };
 		DE176AF41BA089290046EDED /* EVKFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE176AF31BA089290046EDED /* EVKFeedCell.swift */; };
@@ -41,34 +39,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		24D52AD7257AFACC003735FC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 24D52AD0257AFACC003735FC /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 429D5C95C1AA32A707B13ABF6AFE2C9E;
-			remoteInfo = ARChromeActivity;
-		};
-		24D52AD9257AFACC003735FC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 24D52AD0257AFACC003735FC /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EE47B818CE21E479B841EAAFE81A08A8;
-			remoteInfo = KINWebBrowser;
-		};
-		24D52ADB257AFACC003735FC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 24D52AD0257AFACC003735FC /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1CACDAAF8331AAE0D808683E39B53F2F;
-			remoteInfo = "Pods-iFeed";
-		};
-		24D52ADD257AFACC003735FC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 24D52AD0257AFACC003735FC /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7A9A74B03D0C36975F6B2F719EB0D641;
-			remoteInfo = TUSafariActivity;
-		};
 		DE763D2A1B7E841300C8B54A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DE763D0C1B7E841300C8B54A /* Project object */;
@@ -79,10 +49,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D30925441AB8EE21F877212 /* libPods-iFeed.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iFeed.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		24D52AD0257AFACC003735FC /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
-		51CA77CE83F469D14BCB9352 /* Pods-iFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFeed.debug.xcconfig"; path = "Target Support Files/Pods-iFeed/Pods-iFeed.debug.xcconfig"; sourceTree = "<group>"; };
-		9F2BD30D0FA341663E5C1E30 /* Pods-iFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFeed.release.xcconfig"; path = "Target Support Files/Pods-iFeed/Pods-iFeed.release.xcconfig"; sourceTree = "<group>"; };
 		DE176A651B9B706F0046EDED /* EVKBaseTableProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EVKBaseTableProvider.swift; sourceTree = "<group>"; };
 		DE176A671B9B706F0046EDED /* EVKBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EVKBrain.swift; sourceTree = "<group>"; };
 		DE176A681B9B706F0046EDED /* EVKCoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EVKCoreDataManager.swift; sourceTree = "<group>"; };
@@ -107,7 +73,6 @@
 		DE176AB11B9CA0AD0046EDED /* EVKFeedListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EVKFeedListView.swift; sourceTree = "<group>"; };
 		DE176AB21B9CA0AD0046EDED /* EVKFeedListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EVKFeedListViewController.swift; sourceTree = "<group>"; };
 		DE176AB71B9CA1C00046EDED /* iFeed-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iFeed-Bridging-Header.h"; sourceTree = "<group>"; };
-		DE176AEC1B9DFD150046EDED /* EVKBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EVKBrowserViewController.swift; sourceTree = "<group>"; };
 		DE176AEF1B9E0DCD0046EDED /* EVKFeedItemsTableProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EVKFeedItemsTableProvider.swift; sourceTree = "<group>"; };
 		DE176AF01B9E0DCD0046EDED /* EVKFeedListTableProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EVKFeedListTableProvider.swift; sourceTree = "<group>"; };
 		DE176AF31BA089290046EDED /* EVKFeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EVKFeedCell.swift; sourceTree = "<group>"; };
@@ -133,7 +98,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69B8CF03027A1CAD32830EA4 /* libPods-iFeed.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,36 +111,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		24D52AD1257AFACC003735FC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				24D52AD8257AFACC003735FC /* libARChromeActivity.a */,
-				24D52ADA257AFACC003735FC /* libKINWebBrowser.a */,
-				24D52ADC257AFACC003735FC /* libPods-iFeed.a */,
-				24D52ADE257AFACC003735FC /* libTUSafariActivity.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		52251AC59C7D74B62DEAAAF3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1D30925441AB8EE21F877212 /* libPods-iFeed.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		973D7A382CB2256D8D7D6D8A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				24D52AD0257AFACC003735FC /* Pods.xcodeproj */,
-				51CA77CE83F469D14BCB9352 /* Pods-iFeed.debug.xcconfig */,
-				9F2BD30D0FA341663E5C1E30 /* Pods-iFeed.release.xcconfig */,
-			);
-			name = Pods;
-			path = ../../Pods;
-			sourceTree = "<group>";
-		};
 		DE176A641B9B706F0046EDED /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,7 +172,6 @@
 		DE176AAC1B9CA0AD0046EDED /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				DE176AEB1B9DFD150046EDED /* Browser */,
 				DE176AB01B9CA0AD0046EDED /* FeedList */,
 				DE176AAD1B9CA0AD0046EDED /* FeedItemsList */,
 			);
@@ -263,14 +196,6 @@
 			path = FeedList;
 			sourceTree = "<group>";
 		};
-		DE176AEB1B9DFD150046EDED /* Browser */ = {
-			isa = PBXGroup;
-			children = (
-				DE176AEC1B9DFD150046EDED /* EVKBrowserViewController.swift */,
-			);
-			path = Browser;
-			sourceTree = "<group>";
-		};
 		DE176AEE1B9E0DCD0046EDED /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -286,8 +211,6 @@
 				DE763D161B7E841300C8B54A /* iFeed */,
 				DE763D2C1B7E841300C8B54A /* iFeedTests */,
 				DE763D151B7E841300C8B54A /* Products */,
-				973D7A382CB2256D8D7D6D8A /* Pods */,
-				52251AC59C7D74B62DEAAAF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -421,12 +344,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE763D331B7E841300C8B54A /* Build configuration list for PBXNativeTarget "iFeed" */;
 			buildPhases = (
-				1A306FBA5842E7BC5FC1E8B4 /* [CP] Check Pods Manifest.lock */,
 				DE763D101B7E841300C8B54A /* Sources */,
 				DE763D111B7E841300C8B54A /* Frameworks */,
 				DE763D121B7E841300C8B54A /* Resources */,
 				DE7752CB1BA7684900A82EFE /* Crashlytics */,
-				F408C5DC8A551EB8355FD14A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -487,12 +408,6 @@
 			mainGroup = DE763D0B1B7E841300C8B54A;
 			productRefGroup = DE763D151B7E841300C8B54A /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 24D52AD1257AFACC003735FC /* Products */;
-					ProjectRef = 24D52AD0257AFACC003735FC /* Pods.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				DE763D131B7E841300C8B54A /* iFeed */,
@@ -500,37 +415,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		24D52AD8257AFACC003735FC /* libARChromeActivity.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libARChromeActivity.a;
-			remoteRef = 24D52AD7257AFACC003735FC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		24D52ADA257AFACC003735FC /* libKINWebBrowser.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libKINWebBrowser.a;
-			remoteRef = 24D52AD9257AFACC003735FC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		24D52ADC257AFACC003735FC /* libPods-iFeed.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libPods-iFeed.a";
-			remoteRef = 24D52ADB257AFACC003735FC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		24D52ADE257AFACC003735FC /* libTUSafariActivity.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libTUSafariActivity.a;
-			remoteRef = 24D52ADD257AFACC003735FC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DE763D121B7E841300C8B54A /* Resources */ = {
@@ -552,24 +436,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1A306FBA5842E7BC5FC1E8B4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-iFeed-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		DE7752CB1BA7684900A82EFE /* Crashlytics */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -584,80 +450,6 @@
 			shellPath = /bin/sh;
 			shellScript = "if [ \"$CONFIGURATION\" == \"Release\" ]; then\n../Libs/Crashlytics.framework/run 4760756e56b00e661fdfca38443023c06fd79797 2a108c89744d2e3d74bec86ddbea4b924ecf0289c3ff3c6ca0ca5f4e759471ee\nfi";
 		};
-		F408C5DC8A551EB8355FD14A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iFeed/Pods-iFeed-resources.sh",
-				"${PODS_ROOT}/ARChromeActivity/ARChromeActivity/ARChromeActivity.png",
-				"${PODS_ROOT}/ARChromeActivity/ARChromeActivity/ARChromeActivity@2x.png",
-				"${PODS_ROOT}/ARChromeActivity/ARChromeActivity/ARChromeActivity@2x~ipad.png",
-				"${PODS_ROOT}/ARChromeActivity/ARChromeActivity/ARChromeActivity~ipad.png",
-				"${PODS_ROOT}/../iFeed/Libs/KINWebBrowser/Assets/backbutton@2x.png",
-				"${PODS_ROOT}/../iFeed/Libs/KINWebBrowser/Assets/forwardbutton@2x.png",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/Safari.png",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/Safari@2x.png",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/Safari@2x~ipad.png",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/Safari~ipad.png",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/cs.lproj",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/de.lproj",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/en.lproj",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/es.lproj",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/eu.lproj",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/fi.lproj",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/fr.lproj",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/it.lproj",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/ja.lproj",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/ko.lproj",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/nl.lproj",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/no.lproj",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/pl.lproj",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/pt.lproj",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/ru.lproj",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/sk.lproj",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/sv.lproj",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/vi.lproj",
-				"${PODS_ROOT}/TUSafariActivity/TUSafariActivity/zh_CN.lproj",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ARChromeActivity.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ARChromeActivity@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ARChromeActivity@2x~ipad.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ARChromeActivity~ipad.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/backbutton@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/forwardbutton@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Safari.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Safari@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Safari@2x~ipad.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Safari~ipad.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/cs.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/de.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/es.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/eu.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fi.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fr.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/it.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ja.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ko.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/nl.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/no.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pl.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pt.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ru.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sk.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sv.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/vi.lproj",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh_CN.lproj",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iFeed/Pods-iFeed-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -667,7 +459,6 @@
 			files = (
 				DE176AB41B9CA0AD0046EDED /* EVKFeedItemsViewController.swift in Sources */,
 				DE176AF21B9E0DCD0046EDED /* EVKFeedListTableProvider.swift in Sources */,
-				DE176AED1B9DFD150046EDED /* EVKBrowserViewController.swift in Sources */,
 				DE826C561B9B590C0062FE2A /* EVKBaseViewController.swift in Sources */,
 				DE176A8C1B9C9A920046EDED /* NSString+XMLEntities.m in Sources */,
 				DE176AB61B9CA0AD0046EDED /* EVKFeedListViewController.swift in Sources */,
@@ -801,7 +592,6 @@
 		};
 		DE763D341B7E841300C8B54A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51CA77CE83F469D14BCB9352 /* Pods-iFeed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -834,7 +624,6 @@
 		};
 		DE763D351B7E841300C8B54A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F2BD30D0FA341663E5C1E30 /* Pods-iFeed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
