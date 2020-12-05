@@ -36,10 +36,6 @@ class EVKBaseViewController: UIViewController, UIAlertViewDelegate, EVKXMLParser
         alertView.show();
     }
     
-    func alertViewCancel(alertView: UIAlertView) {
-        alertView.endEditing(true)
-    }
-    
     /** click handler */
     func alertView(
         view: UIAlertView,
