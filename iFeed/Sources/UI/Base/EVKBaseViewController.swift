@@ -6,6 +6,8 @@
 //  Copyright (c) 2015 Evgeny Karkan. All rights reserved.
 //
 
+import UIKit
+
 class EVKBaseViewController: UIViewController, UIAlertViewDelegate, EVKXMLParserProtocol {
 
     // MARK: - Life cycle
