@@ -15,7 +15,6 @@ class EVKBrain: NSObject {
     private (set) var parser: EVKXMLParser!
     private (set) var coreDater: EVKCoreDataManager!
     private (set) var presenter: EVKPresenter!
-    private (set) var analytics: EVKAnalytics!
     private (set) var cacher: EVKCacher!
     
     // MARK: - Singleton
@@ -31,7 +30,6 @@ class EVKBrain: NSObject {
         parser    = EVKXMLParser()
         coreDater = EVKCoreDataManager()
         presenter = EVKPresenter.presenter
-        analytics = EVKAnalytics.analytics
         cacher    = EVKCacher.cacher
         
         super.init()
@@ -40,7 +38,6 @@ class EVKBrain: NSObject {
     // MARK: - Public APIs
     func startServices() {
         self.presenter.showStartScreen()
-        self.analytics.startCrashlytics()
         self.cacher.startToCache()
     }
     
